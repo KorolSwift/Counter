@@ -33,7 +33,7 @@
                                     <color key="baseForegroundColor" systemColor="systemGray6Color"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="increaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ful-o9-EKR"/>
+                                    <action selector="increaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYI-EV-Ud8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BM-dy-3tL">
@@ -66,7 +66,7 @@
                                     <color key="baseForegroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="decreaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NR8-kG-kAa"/>
+                                    <action selector="decreaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5q-eo-1Ya"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -92,11 +92,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="buttonClean" destination="1BM-dy-3tL" id="x6f-Nk-Epx"/>
-                        <outlet property="buttonMinus" destination="WVe-8n-FGl" id="3ke-23-evn"/>
-                        <outlet property="buttonPlus" destination="M3F-hz-Ufu" id="dhX-cm-QiR"/>
-                        <outlet property="counterValue" destination="MRY-GD-JC1" id="m9Z-qr-eE1"/>
-                        <outlet property="historyArea" destination="IcF-jQ-UYa" id="NsS-hB-uCn"/>
+                        <outlet property="cleanButton" destination="1BM-dy-3tL" id="p7d-mJ-ESB"/>
+                        <outlet property="counterValueLabel" destination="MRY-GD-JC1" id="wl7-4w-biI"/>
+                        <outlet property="historyTextView" destination="IcF-jQ-UYa" id="YnD-6Q-UPM"/>
+                        <outlet property="minusButton" destination="WVe-8n-FGl" id="ldF-Yw-RJP"/>
+                        <outlet property="plusButton" destination="M3F-hz-Ufu" id="fC7-JN-Ojy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
